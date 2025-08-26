@@ -28,7 +28,6 @@ PowerPulse-ESP32 is a system designed to monitor and log power consumption data.
 **Backend:**
 
 - Python
-- [No specific framework detected]
 
 **Embedded:**
 
