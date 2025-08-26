@@ -19,6 +19,11 @@ Whenever a power outage occurs, the system sends **instant Telegram notification
 
 The ESP32 operates as a client, sending regular **heartbeat** signals to the server, ensuring continuous monitoring.
 
+
+![PowerPulse-ESP32 Diagram](image.png)
+
+
+
 ## ✨ Features
 
 - Real-time detection of power outages via ESP32.
