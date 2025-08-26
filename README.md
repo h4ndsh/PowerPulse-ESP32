@@ -68,12 +68,12 @@ pip install -r requirements.txt
 
 #### 3. Configure environment variables
 - Copy `.env.example` to `.env` and fill in:
-  - `SERIAL_PORT`: Serial port connected to the ESP32
+  - `SERIAL_PORT`: IP and PORT
   - `TELEGRAM_CHAT_IDS`: Comma-separated chat IDs for alerts
-  - Any other relevant settings (e.g., database, logging)
+  - Any other relevant settings
 
-#### 4. ESP32 Setup
-- Open the `esp32` folder in Arduino IDE.
+#### 4. ESP32 Setup (MicroPython)
+- Open the `esp32` folder.
 - Select the correct **board** (ESP32) and **serial port**.
 - Upload the sketch to the ESP32.
 
