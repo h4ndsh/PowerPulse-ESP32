@@ -88,7 +88,7 @@ python server.py
 `client.py` is a simple test script to simulate ESP32 heartbeats:
 
 ```bash
-python client.py test
+python client.py
 ```
 
 - Use this script to verify server connectivity, logging, and Telegram alerts without needing the ESP32.
