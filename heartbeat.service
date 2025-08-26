@@ -1,0 +1,13 @@
+[Unit]
+Description=Heartbeat Server
+After=network.target
+
+[Service]
+User=youruser
+WorkingDirectory=/path/to/your/directory
+EnvironmentFile=/path/to/your/directory/.env
+ExecStart=/usr/bin/python3 /path/to/your/directory/server.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
